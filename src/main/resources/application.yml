@@ -6,9 +6,9 @@ spring:
 # ---------------------------------------------  数据库配置(默认使用mysql：5.5+) -----------------------------------#
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.2.216:3306/book_manager?characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://mysql.sit.cks:3306/bmsdb?characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
     username: root
-    password: 998562
+    password: 123456
 
 # ---------------------------------------------  配置 JPA ------------------------------------------------------- #
   jpa:
