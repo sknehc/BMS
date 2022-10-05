@@ -2,8 +2,6 @@ name: BMS Publish Docker image
 
 on:
   push:
-#    branches:   # master分支有push时触发此workflow
-#      - 'main'
     tags:       # tag更新时触发此workflow
       - '*'
     watch:
