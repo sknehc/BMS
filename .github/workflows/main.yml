@@ -4,8 +4,8 @@ on:
   push:
     tags:       # tag更新时触发此workflow
       - '*'
-    watch:
-      types: [ started ]
+  watch:
+    types: [ started ]
 
 jobs:
   build_jar:
