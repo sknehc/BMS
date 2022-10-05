@@ -1,17 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : localtest
-Source Server Version : 50712
-Source Host           : localhost:3306
-Source Database       : book_manager
-
-Target Server Type    : MYSQL
-Target Server Version : 50712
-File Encoding         : 65001
-
-Date: 2020-07-28 19:49:03
-*/
 
 SET FOREIGN_KEY_CHECKS=0;
 
@@ -113,3 +99,5 @@ INSERT INTO `users` VALUES ('3', '北京', 'a.jpg', '2020-07-14 19:01:33.863000'
 INSERT INTO `users` VALUES ('4', '北京', 'b.jpa', '2020-07-16 16:06:43.000000', 'admin@163.com', '3', '0', '管理员', '123', '3', '17679088880', 'admin');
 INSERT INTO `users` VALUES ('8', '北京朝阳', 'b.jpa', '1998-02-12 08:00:00.000000', 'guest01@163.com', '3', '1', '游客1', '123', '10', '13576008880', 'guest01');
 INSERT INTO `users` VALUES ('9', '北京', 'b.jpa', '1982-01-01 08:00:00.000000', 'guest02@163.com', '3', '1', '游客2', '123', '10', '1768220000', 'guest02');
+
+SET FOREIGN_KEY_CHECKS=0;
